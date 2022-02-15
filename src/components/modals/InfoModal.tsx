@@ -15,11 +15,11 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="W" status="correct" />
-        <Cell value="E" />
+        <Cell value="J" status="correct" />
         <Cell value="A" />
-        <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="C" />
+        <Cell value="O" />
+        <Cell value="B" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter W is in the word and in the correct spot.
@@ -37,10 +37,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="V" />
-        <Cell value="A" />
-        <Cell value="G" />
-        <Cell value="U" status="absent" />
+        <Cell value="O" />
+        <Cell value="L" />
+        <Cell value="I" />
+        <Cell value="V" status="absent" />
         <Cell value="E" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
