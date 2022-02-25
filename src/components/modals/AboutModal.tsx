@@ -16,6 +16,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         >
           Jacob Robinett
         </a>{' '}
+        <br></br>
         {' '}
         <a
           href="https://github.com/cwackerfuss/react-wordle"
